@@ -29,7 +29,7 @@ public class Game {
 
     }
 
-    System.out.println(person.name + " e "+ person2.name + " Morreu, acabou sua jornada!\n Insira uma nova ficha!" + person.exp + person2.exp);
+    System.out.println(person.name + " e "+ person2.name + " Morreram, acabou sua jornada!\n Insira uma nova ficha!" + person.exp + person2.exp);
 
 
     }
