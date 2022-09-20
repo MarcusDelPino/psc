@@ -48,7 +48,6 @@ public class Personagem {
             energy -= 2;
             hungry += 1;
             tired += 1;
-            exp ++;
             bag += generate.nextInt(2);
             // System.out.println(energy);
         } else {
@@ -116,7 +115,7 @@ public class Personagem {
 
     public void revive(){
         if (energy <= 0 && exp >= 10){
-            System.out.println(exp);
+            //System.out.println(exp);
             energy = 5;
             tired = 2;
             hungry = 0;
@@ -134,6 +133,9 @@ public class Personagem {
             tired = 0;
             System.out.println(name + " comeu demais, e nao conseguiu sair para cacar!");
         }
+    }
+    public void xp(){
+        exp ++;
     }
 
 }
