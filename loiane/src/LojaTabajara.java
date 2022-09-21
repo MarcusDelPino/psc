@@ -13,6 +13,8 @@ public class LojaTabajara {
             System.out.println("Qual o valor do produto?");
 
             valor = scan.nextDouble();
+
+            Se fizer com scan ele fica registrado na tela.
 */
             valor = Double.parseDouble(JOptionPane.showInputDialog("Qual valor do produto?"));
 
