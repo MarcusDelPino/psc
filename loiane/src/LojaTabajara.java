@@ -14,7 +14,7 @@ public class LojaTabajara {
 
             valor = scan.nextDouble();
 
-            Se fizer com scan ele fica registrado na tela.
+            Se fizer com scan ele fica registrado, na tela.
 */
             valor = Double.parseDouble(JOptionPane.showInputDialog("Qual valor do produto?"));
 
