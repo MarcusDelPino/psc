@@ -7,7 +7,7 @@ public class ArrayListClasses {
 
        // Pessoas pessoas = new Pessoas("Marcus", 30);
 
-        Collections.sort();
+       // Collections.sort();
         Scanner ler = new Scanner(System.in);
         ArrayList<Pessoas> pessoa = new ArrayList<Pessoas>();
 
