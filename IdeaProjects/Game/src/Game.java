@@ -2,7 +2,7 @@ public class Game {
     public static void main(String[] args) throws InterruptedException {
 
     Personagem person = new Personagem("Marcus", 10,0,0,0, 0);
-    Personagem person2 = new Personagem("Volfredo", 10,0,0,0, 0);
+    Personagem person2 = new Personagem("SandroVal", 10,0,0,0, 0);
 
 
     while (person.energy >= 1 || person2.energy >= 1){
